@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本软件由Tpu Studio制作。" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="如果有建议、意见以及相关信息，或是词库有误，都可以通过QQ联系我们。" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="工作室室长：月银秋(2859040107)" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="工作室群1：574298353" />
+
+    <Button
+        android:id="@+id/add_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加1群"/>
+
+</LinearLayout>
